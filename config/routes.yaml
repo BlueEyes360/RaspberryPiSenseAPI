@@ -1,0 +1,10 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+# config/routes.yaml
+
+# the "app_rand_number" route name is not important yet
+app_rand_number:
+    path: /rand/number
+    controller: App\Controller\RandNumController::number
